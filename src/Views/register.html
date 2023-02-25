@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7f543d5ab7.js" crossorigin="anonymous"></script>
+
+
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div class="LogoYBuscador">
+            <a href="/" id="Logo"><img src="\images\logo-mercado-liebre.svg"></a>
+            <input type="search" id="Buscador" placeholder="Buscar productos, marcas y más...">
+            <div class="ServicioHeader">
+            <i class="fa-solid fa-money-bill-trend-up"></i>
+            <p id="ServicioHeader">Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+        </div>
+        <br>
+        <div id="Navbar">
+    
+
+            <p> <a href="#" class="Navbar">Ofertas</a></p>
+            <p> <a href="#" class="Navbar">Tiendas oficiales </a></p>
+            <p> <a href="#" class="Navbar">Vender</a></p>
+            <p> <a href="#" class="Navbar">Ayuda</a></p>
+
+            <div class="ImagenEIcono">
+
+                <p> <a href="register.html" class="FuncionesDeUsuario">Creá tu cuenta</a></p>
+                <i class="fa-solid fa-user" id="Icono"></i>
+            </div>
+
+
+            <div class="ImagenEIcono">
+                <p><a href="login.html" class="FuncionesDeUsuario">Ingresá</a></p>
+                <i class="fa-sharp fa-solid fa-right-to-bracket" id="Icono"></i>
+            </div>
+
+            <div class="ImagenEIcono">
+                <p><a href="#" class="FuncionesDeUsuario">Mis compras</a></p>
+                <i class="fa-sharp fa-solid fa-cart-shopping" id="Icono"></i>
+            </div>
+            <i class="fas fa-bars" id="Barras"></i>
+
+
+        </div>
+
+
+
+    </header>
+    <main>
+        <form action="register.html" method="get">
+            <div id="Formulario">
+                <h1>Formulario de Registro</h1>
+                <br>
+            <label for="Nombre">Nombre: </label>
+            <br>
+            <input type="text" name="Nombre" placeholder="Escriba aquí su nombre" class="Input" required>
+            <br>
+            <label for="Apellido">Apellido: </label>
+            <br>
+            <input type="text" name="Apellido" placeholder="Escriba aquí su apellido" class="Input" required>
+            <br>
+            <label for="Usuario">Nombre de usuario: </label>
+            <br>
+            <input type="text" name="Usuario" placeholder="Escriba aquí su nombre de usuario" class="Input" required>
+            <br>
+            <label for="Mail">Dirección de correo electrónico: </label>
+            <br>
+            <input type="email" name="Mail" placeholder="Ingrese su dirección de correo electrónico" class="Input" required>
+            <br>
+            <label for="Fecha">Fecha de nacimiento: </label>
+            <br>
+            <input type="date" name="Fecha" class="Input" required>
+            <br>
+            <label for="Domicilio">Domicilio: </label>
+            <br>
+            <input type="text" name="Domicilio" placeholder="Ingrese su dirección" class="Input">
+            <br>
+            <label for="Perfil de usuario">Seleccione su clase de perfil:</label>
+            <br>
+            <label>Comprador </label><input type="radio" name="Perfil de usuario" value="Comprador">
+            <br>
+            <label>Vendedor </label><input type="radio" name="Perfil de usuario" value="Vendedor">
+            <br>
+            <label for="Categorías de interés">Elija las categorías que más le interesen (Puede elegir más de una)</label>
+            <br>
+            <label>Electro </label><input type="Checkbox" name="Categorías de interés" value="Electro">
+            <br>
+            <label>Moda </label><input type="Checkbox" name="Categorías de interés" value="Moda">
+            <br>
+            <label>Hogar </label><input type="Checkbox" name="Categorías de interés" value="Hogar">
+            <br>
+            <label>Juguetería </label><input type="Checkbox" name="Categorías de interés" value="Juguetería">
+            <br>
+            <label>Vida sana </label><input type="Checkbox" name="Categorías de interés" value="Vida sana">
+            <br>
+            <label for="Foto de perfil">Foto de perfil: </label>
+            <br>
+            <input type="file" name="Foto de perfil" accept=".jpg" class="Input">
+            <br>
+            <label>Crear contraseña: </label>
+            <br>
+            <input type="password" class="Input" required>
+            <br>
+            <label>Confirmar Contraseña: </label>
+            <br>
+            <input type="password" class="Input" required>
+            <br>
+            <div class="Botones">
+            <input type="reset" value="Borrar todo" id="Botones"> 
+            <input type="submit" value="Enviar" id="Botones">
+            </div>
+            </div>
+
+
+
+        </form>
+    </div>
+    </main>
+
+</body>

@@ -1,0 +1,181 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #03264c;
+    box-sizing: border-box;
+    margin: 0px;
+ }
+ 
+ header {
+    background-color: #eac926;
+ 
+    
+    
+ 
+ 
+ 
+ 
+ }
+ #Logo{
+    width: 20%;
+ }
+ .LogoYBuscador{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ #Buscador{
+    width: 50%;
+    border-radius: 5px;
+    font-size: 100%;
+ 
+ }
+ .ServicioHeader{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+ 
+ 
+    
+ }
+ #ServicioHeader{
+    font-size: 12px;
+    margin-left: 10px;
+ }
+ 
+ #Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+ }
+ .FuncionesDeUsuario {
+   font-size: 18px;
+   display: flex;
+   margin-bottom: 10px;
+}
+
+p.Navbar {
+   font-size: 20px;
+}
+.ImagenEIcono{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: baseline;
+   
+   
+   
+   
+}
+
+#Icono {
+   font-size: 14px;
+   margin-left: 10px;
+   
+   
+   
+
+}
+#Barras {
+   padding: 10px;
+   font-size: 20px;
+   background-color: #1259c3;
+   color: white;
+   position: relative;
+   top: 3px;
+
+}
+main{
+   display: flex;
+   justify-content: center;
+}
+form{
+   background-color: #ebebeb;
+   margin: 5%;
+   padding: 3%;
+   display: flex;
+   justify-content: center;
+   width: 80%;
+   border-radius: 5%;
+}
+
+#Formulario{
+   text-align: center;
+   background-color: #ebebeb;
+   display: flex;
+   flex-direction: column;
+   width:80%;
+   justify-content: center;
+}
+label{
+   font-weight: bold;
+   display: flex;
+}
+.Botones{
+   display: flex;
+   justify-content: space-between;
+}
+#Botones{
+   background-color: #eac926;
+   border-color: #eac926;
+   color: white;
+   padding: 10px;
+   font-weight: bold;
+   transition: all 200ms
+}
+#Botones:hover{
+   background-color: #0022AA;
+   border-color: #0022AA;
+}
+@media (max-width: 361px) {
+   #Navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+   }
+   #Barras{
+      left: 50%;
+      
+   }
+   form{
+      margin: 0px;
+      width: 100vw;
+      border-radius: 0;
+   
+   }
+}
+   @media (min-width: 361px) {
+      #Navbar{
+         display: flex;
+         flex-direction: column;
+         align-items: baseline;
+      }
+      #Barras {
+         left: 50%;
+      }
+      form{
+         margin: 0px;
+         width: 100vw;
+         border-radius: 0;
+      }
+   }
+      @media (min-width : 769px) {
+         #Navbar{
+         display: flex;
+         flex-wrap: wrap;
+         
+         flex-direction: row;
+         
+         }
+         #Barras{
+            display: none;
+         }
+         form{
+            width: 80%;
+            margin: 5%;
+            border-radius: 5%;
+            
+         }
+         
+         
+      }
